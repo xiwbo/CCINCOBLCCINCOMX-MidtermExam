@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+	line-height: 1.5;
+	font-size: 15px;
+}
+.column {
+	float: left;
+	padding: 10px;
+}
+.header, .info,.menu, .menu2, .menu3, .footer {
+	width: 100%;
+	height: 100%;
+}
+#header {
+	height: 613px;
+	width: 100%;
+	background-color: skyblue;
+	filter: grayscale(50%);
+	text-align: center;
+	color: #000;
+	font-size: 40px;
+}
+#info {
+	height: 613px;
+	width: 100%;
+	background-color: #FAAF08;
+	text-align: center;
+	color: #fff;
+}
+#menu {
+	height: 613px;
+	width: 100%;
+	background-color: #767676;
+	filter: grayscale(50%);
+	text-align: center;
+	color: #000;
+	font-size: 40px;
+}
+#menu2 {
+	height: 613px;
+	width: 100%;
+	background-color: #537072;
+	filter: grayscale(50%);
+	text-align: center;
+	color: #000;
+	font-size: 40px;
+}
+#menu3 {
+	height: 613px;
+	width: 100%;
+	background-color: #68A225;
+	filter: grayscale(50%);
+	text-align: center;
+	color: #000;
+	font-size: 40px;
+}
+#footer {
+	height: 613px;
+	width: 100%;
+	background-color:#ffdddd;
+	text-align: center;
+	color: #000;
+	font-size: 40px;
+}
+.container {
+	margin-top: 15%;
+	margin-right: 25%;
+	margin-bottom: 85%;
+	margin-left: 25%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.navbar {
+	overflow: hidden;
+	background-color: #fff !important;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	opacity: 0.75;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 8px 16px;
+	width: 20%;
+	border: none;
+	margin-left: 25px;
+	margin-right: 40px;
+}
+
+.navbar a:hover {
+	background: rgb(54, 54, 54);
+	color: #fff;
+}
